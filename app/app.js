@@ -24,7 +24,7 @@ app.get("/db_test", function(req, res) {
         res.send(results)
     });
 });
-
+//
 // Create a route for /goodbye
 // Responds to a 'GET' request
 app.get("/goodbye", function(req, res) {
